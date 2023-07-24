@@ -9,3 +9,5 @@ def lot(request):
     return HttpResponse("<h1>Привет бездари!</h1> "
                         "<p>gf gf gf gf </p> "
                         "<big>папапапапа</big>")
+def second(request):
+    return HttpResponse('хахахахахахаха')

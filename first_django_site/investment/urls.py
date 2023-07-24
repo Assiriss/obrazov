@@ -1,8 +1,11 @@
 from django.urls import path
 from .views import *
 
-urlpatters = [
-    path('', first)
+
+
+urlpatterns = [
+    path('', first),
+    path('papa/<int:page_id>/', lot)
 
 
 

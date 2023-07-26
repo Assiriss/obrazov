@@ -11,5 +11,9 @@ def lot(request, page_id):
     elif page_id == 2:
         return HttpResponse('<h2>не такой уж и лох</h2>')
 
+def proba_comit(request, word):
+    return HttpResponse(f'наше слово {word}')
 def second(request):
-    return HttpResponse('хахахахахахаха')
+    return HttpResponse(f"""
+                    <a href="https://yandex.ru/search/?text=fatal%3A+failed+to+load+library+libcurl-4.dll+git&lr=213&clid=2270455&win=583&src=suggest_Tail">GHGHGHHGHG</a>
+    """)
